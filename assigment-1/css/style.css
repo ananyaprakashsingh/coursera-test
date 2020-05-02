@@ -1,0 +1,104 @@
+<style>
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: #ffff99;
+	font-family: Comic Sans MS, Garamond,Impact,sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+}
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+p{
+	text-align: left;
+	padding: 5px;
+	
+}
+#box1,#box2,#box3{
+
+	border: 1px black solid;
+	margin: 1.5%;
+	padding: 5px;
+	background-color: grey;
+	color: white;
+	height: 300px;
+	overflow: auto;
+	
+
+}
+div>div{
+	
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top:-5px;
+	left:5px;
+
+}
+#hh1, #hh2, #hh3{
+
+	border: 1px black solid;
+	margin: 0px;
+	padding: 5px;
+	width: 30%;
+	border: 1px black solid;
+	background-color: white;
+	text-align: center;
+	float: right;
+	color: black;	
+	border-top: 0;
+	border-right: 0;
+	font-size: 120%;
+	
+}
+
+#hh1{
+	background-color: pink;
+}
+#hh2{
+	background-color: #add8e6;
+}
+#hh3{
+	background-color: #B5651D;
+}
+#container{
+	clear: right;
+}
+
+
+
+
+@media(min-width: 992px){
+#box1,#box2,#box3{
+	width: 30.1%;
+	float: left;
+
+}
+#box2,#box3{
+	margin-left: 0;
+	}
+
+}
+@media(min-width: 768px )and (max-width: 991px){
+	#box1,#box2{
+		width:45%;
+		float: left;
+	}
+	#box3{
+		clear: left;width: 94.5%;
+	}
+
+}
+@media(max-width: 767px){
+	#box1,#box2,#box3{
+		margin-left: 15%;
+		margin-right: 15%;
+
+
+}
+</style>
